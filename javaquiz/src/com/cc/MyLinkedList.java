@@ -2,8 +2,8 @@ package com.cc;
 
 public class MyLinkedList {
 
-    int              size = 0;
-    transient MyNode first;
+    int size = 0;
+    MyNode first;
 
     /**
      * This method appends new node at the end
@@ -110,7 +110,7 @@ public class MyLinkedList {
     /**
      * This class represents node in the list 
      */
-    private static class MyNode {
+    private class MyNode {
         Integer node;
         MyNode  next;
 
